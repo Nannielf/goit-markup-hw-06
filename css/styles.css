@@ -187,7 +187,7 @@ cursor: pointer;
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid var(--accent-color);
-    background-color: var(--white-back-color);
+    background-color: var(--light-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -209,6 +209,7 @@ cursor: pointer;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .cards-text {text-align: left;
 }
