@@ -205,6 +205,9 @@ cursor: pointer;
     background: var(--white-back-color);
 }
 .cards-title {text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .cards-text {text-align: left;
 }
