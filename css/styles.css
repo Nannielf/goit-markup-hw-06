@@ -58,7 +58,7 @@ h3 {
 .page {
 }
 .header {
-    border-bottom: 1px solid var(--accent-color);
+    
 }
 .header-nav {
 }
@@ -115,8 +115,6 @@ font-weight: 500;
 letter-spacing: 0.64px;
 line-height: 1.5;
 background-color: var(--primary-color);
-border-radius: 4px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
 .top-btn:focus,
@@ -152,9 +150,7 @@ cursor: pointer;
 .team-block {
 }
 .team-list {
-    border-radius: 0px 0px 4px 4px;
-    background: var(--white-back-color);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    
 }
 .team-title {
     line-height: 1.2;
@@ -184,17 +180,13 @@ cursor: pointer;
     line-height: 1.5;
     font-weight: 500;
     letter-spacing: 0.04em;
-    border-radius: 4px;
     cursor: pointer;
-    border: 1px solid var(--accent-color);
     background-color: var(--light-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--white-back-color);
-    border-radius: 4px;
-    background: var(--pressed-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+   
 }
 .cards{
 }
@@ -202,7 +194,6 @@ cursor: pointer;
     width: 360px;
 }
 .cards-list {
-    border: 1px solid var(--accent-color);
     background: var(--white-back-color);
 }
 .cards-title {text-align: left;
