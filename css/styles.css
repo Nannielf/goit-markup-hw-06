@@ -187,9 +187,10 @@ cursor: pointer;
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid var(--accent-color);
-    background: var(--white-back-color);
+    background-color: var(--white-back-color);
 }
-.filter-btn:active {
+.filter-btn:hover,
+.filter-btn:focus {
     color: var(--white-back-color);
     border-radius: 4px;
     background: var(--pressed-color);
