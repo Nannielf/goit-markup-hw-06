@@ -62,6 +62,7 @@ h3 {
 }
 .header {
     border-bottom: 1px solid var(--accent-color);
+    
 }
 .header-nav {
     gap: 40px;
@@ -131,6 +132,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
     background-color: var(--pressed-color);
 }
 .preference {
+    display: flex;
 }
 .preference-block {
     width: 264px;
@@ -139,6 +141,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
 .preference img {
 }
 .list {
+    display: flex;
 }
 .preference-title { 
 }
@@ -148,6 +151,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
 .what {
 }
 .what-block {
+    display: flex;
 }
 .what-list {
     border: 1px solid var(--accent-color);
@@ -181,6 +185,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
 .port {
 }
 .filter {
+gap: 24px;
 }
 .filter-list {
 }
@@ -192,6 +197,8 @@ box-shadow: 0px 4px 4px 0px #00000026;
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: var(--light-color);
+    padding: 12px 24px 12px 24px ;
+    border-radius: 4px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -200,10 +207,20 @@ box-shadow: 0px 4px 4px 0px #00000026;
     }
 .cards{
 }
+.cards-row {
+width: 1128px; 
+border: 1px solid var(--accent-color);
+}
 .cards img {
 }
 .cards-list {
     background: var(--white-back-color);
+    border: 1px solid var(--accent-color);
+}
+.cards-content {
+width: 360px;
+padding: 0px 16px 0px 16px; 
+gap: 8px;
 }
 .cards-title {
     font-weight: 500;
