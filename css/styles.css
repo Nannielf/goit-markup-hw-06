@@ -51,6 +51,10 @@ h3 {
     line-height: 1.2;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1158px;
 }
@@ -62,10 +66,13 @@ h3 {
 }
 .header {
     border-bottom: 1px solid var(--accent-color);
-    
+}
+.header-block {
+    display: flex;
+    margin: 0 auto;
+
 }
 .header-nav {
-    gap: 40px;
 }
 .logo { 
     font-size: 18px;
@@ -85,6 +92,8 @@ h3 {
 .header-list {
     color: var(--dark-color);
     font-weight: 500;
+    gap: 40px;
+    display: flex;
 }
 
 .link:hover,
@@ -105,6 +114,7 @@ h3 {
 }
 .top {
     background-color: var(--dark-color);
+    padding: 188px 0;
 }
 .top-title {
 color: var(--white-back-color);
@@ -132,7 +142,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
     background-color: var(--pressed-color);
 }
 .preference {
-    display: flex;
+    padding: 120px 0;
 }
 .preference-block {
     width: 264px;
