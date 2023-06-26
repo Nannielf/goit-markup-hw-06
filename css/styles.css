@@ -137,13 +137,11 @@ cursor: pointer;
 .what-block {
 }
 .what-list {
-    border: 1px solid var(--accent-color);
 }
 .team {
     background-color: var(--light-color);
 }
 .team img {
-    width: 264px;
 }
 .team-block {
 }
@@ -179,7 +177,6 @@ cursor: pointer;
     font-weight: 500;
     letter-spacing: 0.04em;
     cursor: pointer;
-    border: 1px solid var(--accent-color);
     background-color: var(--light-color);
 }
 .filter-btn:hover,
@@ -193,14 +190,15 @@ cursor: pointer;
     width: 360px;
 }
 .cards-list {
-    border: 1px solid var(--accent-color);
     background: var(--white-back-color);
 }
-.cards-title {text-align: left;
+.cards-title {
+    text-align: left;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.cards-text {text-align: left;
+.cards-text {
+    text-align: left;
 }
