@@ -150,7 +150,6 @@ cursor: pointer;
 .team-block {
 }
 .team-list {
-    
     background: var(--white-back-color);
 }
 .team-title {
@@ -187,7 +186,7 @@ cursor: pointer;
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--white-back-color);
-    background-color: var(--pressed-color);
+    background-color: var(--pressed-color); 
 }
 .cards{
 }
