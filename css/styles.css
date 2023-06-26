@@ -34,7 +34,6 @@ a {
 
 h2 {
  color: var(--dark-color);
-text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -48,7 +47,6 @@ h3 {
     font-weight: 500;
     letter-spacing: 0.4px;
     line-height: 1.2;
-    text-align: center;
     line-height: 1.2;
 }
 .link {
@@ -102,7 +100,6 @@ h3 {
 }
 .top-title {
 color: var(--white-back-color);
-text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
@@ -127,7 +124,6 @@ cursor: pointer;
 .list {
 }
 .preference-title { 
-    text-align: left;
 }
 .preference-text {
 
@@ -152,7 +148,6 @@ cursor: pointer;
     line-height: 1.2;
 }
 .team-text {
-    text-align: center;
 }
 .footer {
     background-color: var(--dark-color);
@@ -171,7 +166,6 @@ cursor: pointer;
 }
 .filter-btn {
     color: var(--primary-color);
-    text-align: center;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     font-weight: 500;
@@ -192,12 +186,10 @@ cursor: pointer;
     background: var(--white-back-color);
 }
 .cards-title {
-    text-align: left;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .cards-text {
-    text-align: left;
 }
