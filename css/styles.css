@@ -50,6 +50,10 @@ h3 {
     line-height: 1.2;
     line-height: 1.2;
 }
+
+.container {
+    width: 1158px;
+}
 .link {
     text-decoration: none;
     list-style: none;
@@ -57,8 +61,10 @@ h3 {
 .page {
 }
 .header {
+    border-bottom: 1px solid var(--accent-color);
 }
 .header-nav {
+    gap: 40px;
 }
 .logo { 
     font-size: 18px;
@@ -114,12 +120,21 @@ letter-spacing: 0.64px;
 line-height: 1.5;
 background-color: var(--primary-color);
 cursor: pointer;
+width: 169px; 
+padding: 16px 32px 16px 32px ;
+border-radius: 4px ;
+gap: 10px;
+box-shadow: 0px 4px 4px 0px #00000026;
 }
 .top-btn:focus,
 .top-btn:hover {
     background-color: var(--pressed-color);
 }
 .preference {
+}
+.preference-block {
+    width: 264px;
+    gap: 8px;
 }
 .preference img {
 }
@@ -135,6 +150,7 @@ cursor: pointer;
 .what-block {
 }
 .what-list {
+    border: 1px solid var(--accent-color);
 }
 .team {
     background-color: var(--light-color);
@@ -142,6 +158,8 @@ cursor: pointer;
 .team img {
 }
 .team-block {
+    width: 232px;
+    gap: 8px;
 }
 .team-list {
     background: var(--white-back-color);
