@@ -91,13 +91,14 @@ img {
 }
 .header-menu {
     gap: 40px;
-        display: flex;
-        padding: 24px 0;
+    display: flex;
+ 
 }
 
 .header-list {
     color: var(--dark-color);
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .link:hover,
@@ -193,6 +194,10 @@ box-shadow: 0px 4px 4px 0px #00000026;
 }
 .footer-block {
     padding: 100px 0;
+}
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer .logo-studio {
     color: var(--light-color);
