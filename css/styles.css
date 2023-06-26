@@ -186,6 +186,9 @@ box-shadow: 0px 4px 4px 0px #00000026;
 .footer {
     background-color: var(--dark-color);
 }
+.footer-block {
+    padding: 100px 0;
+}
 .footer .logo-studio {
     color: var(--light-color);
 }
