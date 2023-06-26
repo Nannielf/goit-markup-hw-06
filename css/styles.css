@@ -70,9 +70,11 @@ img {
 .header-block {
     display: flex;
     margin: 0 auto;
-
+    padding: 0 15px;
 }
 .header-nav {
+    display: flex;
+    align-items: center;;
 }
 .logo { 
     font-size: 18px;
@@ -82,18 +84,20 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: var(--primary-color);
+    margin-right: 76px;
 }
 .logo-studio {
     color: var(--dark-color)
 }
 .header-menu {
+    gap: 40px;
+        display: flex;
+        padding: 24px 0;
 }
 
 .header-list {
     color: var(--dark-color);
     font-weight: 500;
-    gap: 40px;
-    display: flex;
 }
 
 .link:hover,
@@ -105,7 +109,8 @@ img {
     font-style: normal;
 }
 .header-adress {
-   
+display: flex;
+gap: 40px;
 }
 
 .main {
