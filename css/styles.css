@@ -187,7 +187,6 @@ cursor: pointer;
 .cards{
 }
 .cards img {
-    width: 360px;
 }
 .cards-list {
     background: var(--white-back-color);
