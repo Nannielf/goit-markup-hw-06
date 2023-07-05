@@ -108,7 +108,7 @@ button {
 .header-block {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .header-nav {
     display: flex;
@@ -138,14 +138,15 @@ button {
 .header-list {
     color: var(--dark-color);
     font-weight: 500;
+    display: flex;
 }
 
 .address {
     font-style: normal;
 }
 .header-adress {
-
 gap: 40px;
+justify-content: end;
 }
 
 /* MAIN */
@@ -319,7 +320,6 @@ box-shadow: 0px 4px 4px 0px #00000026;
     padding: 32px 16px;
     border: 1px solid var(--accent-color);
     border-top: none;
-
 }
 .cards img {
 }
@@ -334,6 +334,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: left;
 }
 .cards-text {
 }
