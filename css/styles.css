@@ -107,12 +107,12 @@ button {
 }
 .header-block {
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
 }
 .header-nav {
     display: flex;
-    align-items: center;;
+    align-items: center;
 }
 .logo { 
     font-size: 18px;
