@@ -144,6 +144,7 @@ button {
     font-style: normal;
 }
 .header-adress {
+
 gap: 40px;
 }
 
@@ -276,14 +277,14 @@ box-shadow: 0px 4px 4px 0px #00000026;
 /* PORTFOLIO */
 
 .port {
-}
-.section .port {
     padding-top: 96px;
     padding-bottom: 120px;
 }
 .filter {
     display: flex;
     gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 .filter-list {
 }
@@ -297,23 +298,29 @@ box-shadow: 0px 4px 4px 0px #00000026;
     background-color: var(--light-color);
     padding: 12px 24px 12px 24px ;
     border-radius: 4px;
+    border: 1px solid var(--accent-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--white-back-color);
     background-color: var(--pressed-color);
-    }
-.cards{
+    border: 1px solid transparent;
 }
-.cards-row {
-width: 1128px; 
-border: 1px solid var(--accent-color);
+
+.portfolio-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+.cards{
 }
 .cards img {
 }
 .cards-list {
     background: var(--white-back-color);
     border: 1px solid var(--accent-color);
+    width: calc((100% - 48px) / 3);
 }
 .cards-content {
 width: 360px;
