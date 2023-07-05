@@ -22,15 +22,26 @@ body {
     background-color: var(--white-back-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ol,ul {
-list-style-type: none;
+list-style: none;
+margin: 0;
+padding-left: 0;
 }
 
 a {
     text-decoration:none;
     color:currentColor
   }
-
 
 h2 {
  color: var(--dark-color);
@@ -53,8 +64,15 @@ h3 {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
 .container {
     width: 1158px;
 }
@@ -64,6 +82,7 @@ img {
 }
 .page {
 }
+/* HEADER */
 .header {
     border-bottom: 1px solid var(--accent-color);
 }
@@ -114,12 +133,16 @@ display: flex;
 gap: 40px;
 }
 
+/* MAIN */
+
 .main {
 }
 .section {
 }
 .top {
     background-color: var(--dark-color);
+}
+.top-div {
     padding: 188px 0;
 }
 .top-title {
@@ -129,6 +152,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 1.12px;
 text-align: center;
+max-width: 496px;
 }
 .top-btn {
 color: var(--white-back-color);
@@ -189,6 +213,9 @@ box-shadow: 0px 4px 4px 0px #00000026;
 }
 .team-text {
 }
+
+/* FOOTER */
+
 .footer {
     background-color: var(--dark-color);
 }
@@ -205,6 +232,9 @@ box-shadow: 0px 4px 4px 0px #00000026;
 .footer-text {
     color: var(--light-color);
 }
+
+/* PORTFOLIO */
+
 .port {
 }
 .filter {
