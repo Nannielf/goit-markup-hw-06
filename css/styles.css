@@ -315,6 +315,12 @@ box-shadow: 0px 4px 4px 0px #00000026;
 }
 .cards{
 }
+.cards-block {
+    padding: 32px 16px;
+    border: 1px solid var(--accent-color);
+    border-top: none;
+    margin-bottom: 8px;
+}
 .cards img {
 }
 .cards-list {
