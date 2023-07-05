@@ -141,9 +141,9 @@ gap: 40px;
 }
 .section-top {
     background-color: var(--dark-color);
+    padding: 188px 0;
 }
 .top-div {
-    padding: 188px 0;
 }
 .top-title {
 color: var(--white-back-color);
@@ -155,13 +155,15 @@ text-align: center;
 max-width: 496px;
 }
 .top-btn {
+display: block;
 color: var(--white-back-color);
 font-weight: 500;
 letter-spacing: 0.64px;
 line-height: 1.5;
 background-color: var(--primary-color);
 cursor: pointer;
-width: 169px; 
+min-width: 169px; 
+height: 56px;
 padding: 16px 32px 16px 32px ;
 border-radius: 4px ;
 gap: 10px;
