@@ -158,8 +158,15 @@ justify-content: end;
 .section-top {
     background-color: var(--dark-color);
     padding: 188px 0;
+    margin: 0 auto;
 }
 .top-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url();
+
 }
 .top-title {
 color: var(--white-back-color);
@@ -184,6 +191,7 @@ padding: 16px 32px 16px 32px ;
 border-radius: 4px ;
 gap: 10px;
 box-shadow: 0px 4px 4px 0px #00000026;
+margin-top: 48px;
 }
 .top-btn:focus,
 .top-btn:hover {
@@ -198,6 +206,13 @@ box-shadow: 0px 4px 4px 0px #00000026;
 .preference-block {
     width: calc((100% - 72px) / 4);
 }
+.preference-icon-block {
+    width:100%;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--cloud, #F4F4FD);
+}
+
 .preference img {
 }
 
