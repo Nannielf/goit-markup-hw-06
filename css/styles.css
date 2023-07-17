@@ -103,19 +103,17 @@ button {
 }
 /* HEADER */
 .header {
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
     border-bottom: 1px solid var(--modal-back-color);
     background: var(--white-back-color);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 
 }
 .header-block {
-    width: 100%;
     display: flex;
     align-items: center;
-    position: fixed;
-    justify-content: space-around;
     background: var(--white-back-color);
 }
 .header-nav {
@@ -173,11 +171,12 @@ button {
 }
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 .header-adress {
-gap: 40px;
-justify-content: end;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 40px;
+    justify-content: end;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* MAIN */
@@ -195,7 +194,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-position: center;
     max-width: 1440px;
     background-size: cover;
-
+    padding-top: 258px;
+    margin: 0 auto;
 }
 .top-div {
     display: flex;
@@ -293,13 +293,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 .team-block {
-    width: 100%;
     padding: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
     padding: 32px 0;
 }
 .team .section-title {
@@ -418,9 +412,6 @@ background-color: var(--pressed-color);
     align-items: baseline;
 }
 .footer-logo-block {
-    display: flex;
-flex-direction: column;
-margin-right: 120px
 }
 .footer .logo {
     display: inline-block;
@@ -436,10 +427,7 @@ margin-right: 120px
     color: var(--light-color);
 }
 .footer-social-block {
-    display: flex;
-    flex-direction: column;
     margin-left: 120px;
-    gap: 16px;
 }    
 .footer-social-title {
     color: var(--white-back-color);
@@ -487,7 +475,7 @@ margin-right: 120px
 /* PORTFOLIO */
 
 .port {
-    padding-top: 96px;
+    padding-top: 172px;
     padding-bottom: 120px;
 }
 .filter {
@@ -532,14 +520,11 @@ margin-right: 120px
 .overlay-block {
 position: relative;
 overflow: hidden;
-
 }
 .cards-block {
     padding: 32px 16px;
     border: 1px solid var(--accent-color);
     border-top: none;
-}
-.cards img {
 }
 .cards-list {
     background: var(--white-back-color);
@@ -624,6 +609,7 @@ overflow: hidden;
 
 .modal-btn {
     position: absolute;
+    z-index: 10;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -652,6 +638,7 @@ overflow: hidden;
 .modal-btn:focus .modal-svg{
     fill: #ffffff;
 }
+<<<<<<< HEAD
 .callback-form {
     color: var(--subtitle-color);
     font-size: 12px;
@@ -794,3 +781,5 @@ overflow: hidden;
     color: var(--accent-cl);
     text-decoration: underline;
 }
+=======
+>>>>>>> eba11739e328bd3ad7357c58ffed2b9414e8d89e
