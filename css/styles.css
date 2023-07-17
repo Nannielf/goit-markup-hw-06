@@ -491,19 +491,19 @@ background-color: var(--pressed-color);
     width: 264px;
     height: 40px;
     flex-shrink: 0;
-    background: var(--overlay-color);
+    background-color: transparent;
     border-radius: 4px;
     border: 1px solid var(--white-back-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
     color: var(--white-back-color);
-}
-.footer-subs-input::placeholder {
-    color: var(--white-back-color);
     font-size: 12px;
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.48px;
+}
+.footer-subs-input::placeholder {
+    color: var(--white-back-color);
 }
 
 .btn-footer {
@@ -517,6 +517,10 @@ background-color: var(--pressed-color);
     background: var(--primary-color);
     border: none;
     color: var(--white-back-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-size: 16px;
 }
 
 .footer-subs-svg {
