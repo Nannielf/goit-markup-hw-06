@@ -403,7 +403,7 @@ background-color: var(--pressed-color);
 
 .footer {
     background-color: var(--dark-color);
-    padding: 100px 0
+    padding: 100px 0;
 }
 .footer-block {
     display: flex;
@@ -496,7 +496,7 @@ background-color: var(--pressed-color);
     border: 1px solid var(--white-back-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
-
+    color: var(--white-back-color);
 }
 .footer-subs-input::placeholder {
     color: var(--white-back-color);
@@ -516,10 +516,12 @@ background-color: var(--pressed-color);
     border-radius: 4px;
     background: var(--primary-color);
     border: none;
+    color: var(--white-back-color);
 }
 
 .footer-subs-svg {
     margin-left: 16px;
+    fill: var(--white-back-color);
 }
 
 /* PORTFOLIO */
