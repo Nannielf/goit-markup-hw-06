@@ -819,18 +819,19 @@ overflow: hidden;
     width: 16px;
     height: 16px;
 
-    border: 1px solid var(--overlay-color, rgba(46, 47, 66, 0.40));
+    border: 1px solid rgba(46, 47, 66, 0.40);
     border-radius: 2px;
 }
 
 .modal-form-checkbox:checked+.modal-form-custom-checkbox {
-    border-color: var(--accent-cl);
-    background-color: var(--accent-cl);
+    border-color: var(--pressed-color);
+    background-color: var(--pressed-color);
 }
 
 .modal-form-checkbox-icon {
     opacity: 0;
     transform: scale(0.3);
+    fill: var(--primary-color);
     transition: opacity 300ms cubic-bezier(0, 0, 1, 1.8) 150ms,
         transform 300ms cubic-bezier(0, 0, 1, 1.8) 150ms;
 }
