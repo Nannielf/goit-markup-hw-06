@@ -35,9 +35,14 @@
             <address class="address">
             <ul class="list header-adress">
                 <li class="address-list"><a class="link header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="address-list"><a class="link header-link" href="tel:+110001111111">+11 (000) 111-11-11</a>></li>
+                <li class="address-list"><a class="link header-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
             </address>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-toggle-icon" width="32" height="22">
+                    <use href="./images/icons.svg#hamburger"></use>
+                </svg>
+            </button>
             </div>
         </header>
         <main class="main"> 
@@ -416,6 +421,64 @@
                 </form>
                 </div>
             </div>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="modal-btn js-close-menu" type="button">
+                <svg class="modal-svg" width="8" height="8">
+                    <use href="./images/icons.svg#close"></use>
+                </svg>
+            </button>
+        
+            <ul class="mobile-menu">
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="">Studio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="">Portfolio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link link" href="">Contacts</a>
+                </li>
+            </ul>
+            <ul class="list mobile-adress">
+                <li class="mobile-address-item">
+                    <a class="link mobile-phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li class="mobile-address-item">
+                    <a class="link mobile-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-networks">
+                <li class="mobile-networks-item">
+                    <a href="" class="link mobile-networks-link" aria-label="instagram">
+                        <svg class="mobile-networks-icon" width="24" height="24">
+                            <use href="./images/icons.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-networks-item" aria-label="twitter">
+                    <a href="" class="link mobile-networks-link">
+                        <svg class="mobile-networks-icon" width="24" height="24">
+                            <use href="./images/icons.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-networks-item" aria-label="facebook">
+                    <a href="" class="link mobile-networks-link">
+                        <svg class="mobile-networks-icon" width="24" height="24">
+                            <use href="./images/icons.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-networks-item" aria-label="linkedin">
+                    <a href="" class="link mobile-networks-link">
+                        <svg class="mobile-networks-icon" width="24" height="24">
+                            <use href="./images/icons.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
         <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
     </body>
 </html>
