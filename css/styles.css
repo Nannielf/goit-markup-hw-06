@@ -220,10 +220,40 @@ button {
 .section-top {
         margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-            url("../images/topbg.jpg");
+            url("../images/topbg_mob@1x.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .section-top {
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), 
+    url("../images/topbg_mob@2x.jpg");
+  }
+}
+@media only screen and (min-width: 429px) {
+    .section-top {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+         url("../images/topbg_tab@1x.jpg");
+      }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .section-top {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+         url("../images/topbg_tab@2x.jpg");
+      }
+    }    
+}
+@media only screen and (min-width: 769px) {
+    .section-top {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+         url("../images/topbg_desk@1x.jpg");
+      }
+      @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        .section-top {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+         url("../images/topbg_desk@2x.jpg");
+      }
+    }    
 }
 .top-div {
     display: flex;
