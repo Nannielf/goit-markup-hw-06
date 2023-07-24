@@ -90,10 +90,9 @@ button {
   } 
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
-        padding: 0;
+        max-width: 1158px;
     }
 }
 
@@ -122,19 +121,17 @@ button {
 }
 /* HEADER */
 .header {
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    border-bottom: 1px solid var(--modal-back-color);
-    background: var(--white-back-color);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    
 
 }
 .header-block {
     padding: 16px 24px;
     display: flex;
     align-items: center;
+    width: 100%;
+    border-bottom: 1px solid var(--modal-back-color);
     background: var(--white-back-color);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .header-nav {
     display: flex;
@@ -213,22 +210,33 @@ button {
 .section {
 }
 .section-top {
-    max-width: 1440px;
+    max-width: 428px;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url("../images/topbg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+@media only screen and (min-width: 768px) {
+  .section-top {
+      max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .section-top {
+      max-width: 1440px;
+  } 
 }
 .top-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--dark-color);
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
-        url("../images/topbg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 258px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
 }
 .top-title {
 color: var(--white-back-color);
@@ -272,7 +280,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
     .top-btn {
         margin-top: 48px;
     }
@@ -284,7 +292,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .preference {
     padding: 96px 0;
 }
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
 .preference {
         padding: 120px 0;
     }
@@ -308,7 +316,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .preference-block {
       width: calc((100% - 72px) / 4);
   } 
@@ -325,7 +333,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
     margin-bottom: 8px;
 }
-@media only screen and (max-width: 1127px) {
+@media only screen and (max-width: 1157px) {
 .pref-icons {
     display: none;
   }
@@ -338,7 +346,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 1127px) {
+@media only screen and (max-width: 1157px) {
   .preference-title {
     margin-bottom: 8px;
     font-size: 36px;
@@ -354,7 +362,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.32px;
   } 
 }
-@media only screen and (max-width: 1127px) {
+@media only screen and (max-width: 1157px) {
   .what {
       padding-bottom: 120px;
       display: none;
@@ -372,15 +380,16 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
 }
 .team {
-
+    background-color: var(--light-color);
 }
 .team-div {
-    background-color: var(--light-color);
-    padding: 96px 0;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .team-div {
-      padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
   } 
 }
 .team img {
@@ -414,7 +423,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .team-item {
       width: calc((100% - 72px) / 4);
   } 
@@ -466,7 +475,7 @@ background-color: var(--pressed-color);
     align-items: center;
     padding: 96px 0
 }
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .clients {
       padding: 120px 0
   }
@@ -475,17 +484,14 @@ background-color: var(--pressed-color);
         margin-bottom: 72px;
 }
 .clients-div {
-    padding: 0;
     flex-shrink: 0;
 }
 @media only screen and (min-width: 768px) {
     .clients-div {
-        max-width: 552px;
     }
 }
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .clients-div {
-      max-width: 1128px;
       height: 200px;
   }
 }
@@ -504,10 +510,10 @@ background-color: var(--pressed-color);
   }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .clients-list {
-      display: flex;
       align-items: flex-start;
+      flex-wrap: nowrap;
   } 
 }
 .clients-block {
@@ -549,12 +555,11 @@ background-color: var(--pressed-color);
 /* FOOTER */
 
 .footer {
-
+    background-color: var(--dark-color);
 }
 
 .footer-block {
     padding: 96px 0;
-    background-color: var(--dark-color);
     display: flex;
     gap: 72px;
     flex-direction: column;
@@ -571,10 +576,11 @@ background-color: var(--pressed-color);
     padding: 96px 0 96px 108px;
   } 
 }
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .footer-block {
-        padding: 100px 0 100px 156px;
-        flex-wrap: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-wrap: nowrap;
       align-items: baseline;
       gap: 0;
   } 
@@ -615,7 +621,7 @@ background-color: var(--pressed-color);
     }
 }
 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
   .footer-social-block {
       margin-left: 120px;
   } 
@@ -663,7 +669,7 @@ background-color: var(--pressed-color);
   .footer-subs-block {
       margin-left: 0px;
   } 
-@media only screen and (min-width: 1128px) {
+@media only screen and (min-width: 1158px) {
     .footer-subs-block {
         margin-left: 80px;
     }
