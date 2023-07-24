@@ -80,8 +80,8 @@ button {
     padding-left: 16px;
     padding-right: 16px;
 
-    outline: red 2px solid;
-    outline-offset: -2px;
+    /* outline: red 2px solid;
+    outline-offset: -2px; */
 }
 
 @media only screen and (min-width: 768px) {
