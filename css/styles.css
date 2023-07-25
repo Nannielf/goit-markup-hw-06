@@ -259,11 +259,6 @@ button {
       }
     }    
 }
-
-.top-div {
-
-}
-
 .top-title {
 color: var(--white-back-color);
 font-size: 56px;
@@ -374,7 +369,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .preference-title { 
     margin-bottom: 8px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .preference-title {
     text-align: center;
   }
@@ -418,9 +413,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 96px 0;
     max-width: 1440px;
     margin: 0 auto;
-}
-.team-div {
-
 }
 @media only screen and (min-width: 1158px) {
   .team {
@@ -513,9 +505,6 @@ background-color: var(--pressed-color);
 .clients-div .section-title {
         margin-bottom: 72px;
 }
-.clients-div {
-}
-
 @media only screen and (min-width: 1158px) {
   .clients-div {
       height: 200px;
@@ -1137,14 +1126,12 @@ overflow: hidden;
     }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-    background-color: var(--pressed-color);
-    stroke: var(--light-color);
-}
-
 .menu-toggle-icon {
     stroke: var(--dark-color);
+}
+.menu-toggle-icon:hover,
+.menu-toggle-icon:focus {
+    stroke: var(--pressed-color);
 }
 
 .menu-container {
@@ -1232,13 +1219,17 @@ overflow: hidden;
 
 .mobile-phone {
     color: var(--primary-color);
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-
+@media only screen and (min-width: 428px) {
+  .mobile-phone {
+    font-size: 36px;
+  }
+}
 .mobile-email {
     color: var(--text-color);
     font-size: 20px;
